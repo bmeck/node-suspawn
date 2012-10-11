@@ -1,0 +1,19 @@
+{
+  "name": "suspawn",
+  "version": "0.0.0",
+  "description": "Sudo spawning utilities",
+  "main": "lib/suspawn.js",
+  "scripts": {
+    "test": "for TEST in $(find test -name \\*.js); do echo RUNNING $TEST; node $TEST; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmeck/node-suspawn.git"
+  },
+  "keywords": [
+    "sudo",
+    "env"
+  ],
+  "author": "bradley meck",
+  "license": "MIT"
+}
