@@ -1,6 +1,6 @@
 {
   "name": "suspawn",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sudo spawning utilities",
   "main": "lib/suspawn.js",
   "scripts": {
