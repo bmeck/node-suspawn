@@ -8,5 +8,5 @@ var env = suspawn('env', {
 var output = '';
 env.stdout.on('data', function (data) {output+=data;});
 env.on('exit', function () {
-  assert(/^X_Y=Z_\\~$/m.test(output));
+  assert(/^X_Y=Z_\~$/m.test(output));
 });
