@@ -28,3 +28,8 @@ User to spawn as.
 
 Group to spawn as.
 
+## suspawn.getSpawnOptions(command[, args][, options])
+
+A useful little function if you do not actually want to spawn the process,
+but would rather get the options to spawn it yourself. This allows some
+modification instead of straight spawning.
