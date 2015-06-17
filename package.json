@@ -1,6 +1,6 @@
 {
   "name": "suspawn",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Sudo spawning utilities",
   "main": "lib/suspawn.js",
   "scripts": {
@@ -11,9 +11,18 @@
     "url": "git://github.com/bmeck/node-suspawn.git"
   },
   "keywords": [
+    "spawn",
+    "child_process",
     "sudo",
     "env"
   ],
   "author": "bradley meck",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmeck/node-suspawn/issues"
+  },
+  "homepage": "https://github.com/bmeck/node-suspawn",
+  "directories": {
+    "test": "test"
+  }
 }
